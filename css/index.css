@@ -39,6 +39,7 @@ body{
     padding-top: 40px ;
     padding-left: 50px;
     padding-right: 50px;
+    cursor:pointer;
 }
 
 .headings a:hover{
@@ -210,5 +211,117 @@ body{
     height: 50px;
     width: 220px;
     background-color: white;
+    transition-duration: 0.5s;
+}
+
+.building-a-better-community{
+    background-image: url("https://d2lptvt2jijg6f.cloudfront.net/jindalsteelpower/custom/1604139489_sustainable-bg.jpg");
+    width: 100%;
+    min-height: 80vh;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.building{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.item-container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.item-counter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+}
+
+.item-container-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.item-container-info{
+    color: white;
+    font-size: 20px;
+}
+
+.Journey-of-Sustainable-Growth{
+    background-image: url("https://d2lptvt2jijg6f.cloudfront.net/jindalsteelpower/custom/jindalsteelpower/1608638148_our-latest-bg.jpg");
+    width: 100%;
+    min-height: 80vh;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.rs-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.nse-rs{
+    display: flex;
+}
+
+.nse{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Visionary-Experts{
+    background-image: url("https://d2lptvt2jijg6f.cloudfront.net/jindalsteelpower/custom/1606902107_Visionary_index_bg1.jpg");
+    width: 100%;
+    height: 80vh;
+}
+
+.Passionate-Minds{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.OUR-LEADERSHIP{
+    width: 250px;
+    height: 50px;
+    background-color: snow;
+    border: none;
+    margin:10px;
+}
+
+.OUR-LEADERSHIP:hover{
+    width: 250px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
     transition-duration: 0.5s;
 }
